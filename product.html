@@ -1,12 +1,18 @@
+<!-- 3行くらいにして1ページ当たりの情報量を増やしたい -->
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>大田純志のポートフォリオ</title>
+    <title>ぱぁのポートフォリオ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="大田純志の個人用ポートフォリオ">
+    <meta name="description" content="ぱぁのポートフォリオ">
     <!--<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">-->
     <link rel="stylesheet" href="css/style.css">
     <!--[if lt IE 9]>
@@ -18,10 +24,9 @@
     <link rel="stylesheet" type="text/css"
         href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" type="text/css"
-        href="make.css">
+    <link rel="stylesheet" type="text/css" href="make.css">
 
-<!--[if lt IE 9]>
+    <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
@@ -33,7 +38,7 @@
     <div id="container">
 
         <header>
-            <h1 id="logo"><a href="index.html"><img src="images/Ohta.A homepage - MarkMaker Logo.png" alt="Ohta.A homepage"></a></h1>
+            <h1 id="logo"><a href="index.html"><img src="images/top.png" alt="homepage"></a></h1>
         </header>
 
         <nav id="menubar">
@@ -42,7 +47,9 @@
                 <li><a href="robot.html">Robot</a></li>
                 <li><a href="event.html">Event</a></li>
                 <li><a href="product.html">Product</a></li>
-                <li><a href="research.html">Research</a></li>
+                <!--<li><a href="research.html">Research</a></li>-->
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="hobby.html">Hobby</a></li>
                 <li><a href="contactlink.html">Contact・Link</a></li>
             </ul>
         </nav>
@@ -51,72 +58,91 @@
 
             <section>
 
-                <h1>BLOG</h1>
-                    <h2>KINKI KNIGHTS-ブログ</h2>
-                    <p>アドカレの時期などに<a href="https://kinkiknights.com/posts/">近畿ナイツのブログ</a>で執筆しています</p>
-
                 <h1>GALLERY</h1>
 
                 <!--まだ追加していないものあり 年月も加えたい-->
-                    <h2>ロボットアーム 2024年4月上旬</h2>
-                    <p>レスコン用のロボットアームをリサイズした 詳細は<a href="https://kinkiknights.com/posts/176/">こちら</a></p>
-                    <div class="center">
-                        <video class="center" controls src="images/robotarm.mov"></video>
-                    </div>
-
-                    <h2>心臓 2024年4月上旬</h2>
-                    <p>唐突に心臓を作りたくなった 機械 × 生命的なのにハマってた</p>
-                    <div class="center">
-                        <video class="center" controls src="images/heart.mov"></video>
-                    </div>
-
-                    <h2>お船 2023年6月下旬</h2>
-                    <p>CAD練習と何処かでもらった水中用モータを使いたかった</p>
-                    <iframe height="500" src="https://www.youtube.com/embed/7lip3ov0CGw?si=WRRoUWUZ8oYI6eMZ"
+                <h2>第十二回ソレノイドコンテスト 2025年2月上旬</h2>
+                <p>昨年度に制作した心臓にテーマを設定しソレコンに応募</p>
+                <div class="youtube-responsive">
+                    <iframe src="https://www.youtube.com/embed/adTK8Ci7v8o?si=gTgkn7f9ffLYx6mV"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                     </iframe>
-
-                    <h2>スフェイサー 2023年4月上旬</h2>
-                    <p>3Dプリンタが得意とする形状を生かした製作物</p>
-                    <div class="center">
-                        <video class="center" controls src="images/face.mov"></video>
-                    </div>
-
-                    <h2>巨大10面ダイス 2023年4月上旬</h2>
-                    <p>3Dプリンタの印刷可能領域をフルに使ってみたかった</p>
-                    <div class="center">
-                        <video class="center" controls src="images/dice.mov"></video>
-                    </div>
-
-                    <h2>テンセグリティ 2023年2月下旬</h2>
-                    <p>テンセグリティの製作</p>
-                    <div class="center">
-                        <video class="center" controls src="images/tensegrity.mov"></video>
-                    </div>
-
-                    <h2>ラチェット機構 2022年12月下旬</h2>
-                    <p>ラチェット機構の製作</p>
-                    <div class="center">
-                        <video class="center" controls src="images/gear.mov"></video>
-                    </div>
-
                 </div>
 
-            </section>
+                <h2>技育展2024 2024年10月上旬</h2>
+                <p>アイトラッカーを用いてテレビ顔を制作</p>
+                <div class="youtube-responsive">
+                    <iframe src="https://www.youtube.com/embed/wVHs6qtXaSE?si=hpYdAq3Tx9lXrvFi"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <h2>ロボットアーム 2024年4月上旬</h2>
+                <p>レスコン用のロボットアームをリサイズした 詳細は<a href="https://kinkiknights.com/posts/176/">こちら</a></p>
+                <div class="center">
+                    <video class="center" controls src="images/robotarm.mov"></video>
+                </div>
+
+                <h2>心臓 2024年4月上旬</h2>
+                <p>唐突に心臓を作りたくなった 機械 × 生命的なのにハマってた</p>
+                <div class="center">
+                    <video class="center" controls src="images/heart.mov"></video>
+                </div>
+
+                <h2>お船 2023年6月下旬</h2>
+                <p>CAD練習と何処かでもらった水中用モータを使いたかった</p>
+                <div class="youtube-responsive">
+                    <iframe src="https://www.youtube.com/embed/7lip3ov0CGw?si=q-09UthxwfPUxTpw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+
+
+                <h2>スフェイサー 2023年4月上旬</h2>
+                <p>3Dプリンタが得意とする形状を生かした製作物</p>
+                <div class="center">
+                    <video class="center" controls src="images/face.mov"></video>
+                </div>
+
+                <h2>巨大10面ダイス 2023年4月上旬</h2>
+                <p>3Dプリンタの印刷可能領域をフルに使ってみたかった</p>
+                <div class="center">
+                    <video class="center" controls src="images/dice.mov"></video>
+                </div>
+
+                <h2>テンセグリティ 2023年2月下旬</h2>
+                <p>テンセグリティの製作</p>
+                <div class="center">
+                    <video class="center" controls src="images/tensegrity.mov"></video>
+                </div>
+
+                <h2>ラチェット機構 2022年12月下旬</h2>
+                <p>ラチェット機構の製作</p>
+                <div class="center">
+                    <video class="center" controls src="images/gear.mov"></video>
+                </div>
 
         </div>
-        <!--/contents-->
 
-        <footer>
-            <small>Copyright&copy; <a href="index.html">SAMPLE SITE</a> All Rights Reserved.</small>
-            <span class="pr">《<a href="https://template-party.com/" target="_blank">Web
-                    Design:Template-Party</a>》</span>
-            <p>使用したライブラリ：<a href="https://kenwheeler.github.io/slick/"
-                    target="_blank">https://kenwheeler.github.io/slick/</a>
-            </p>
-        </footer>
+        </section>
+
+    </div>
+    <!--/contents-->
+
+    <footer>
+        <small>Copyright&copy; <a href="index.html">SAMPLE SITE</a> All Rights Reserved.</small>
+        <span class="pr">《<a href="https://template-party.com/" target="_blank">Web
+                Design:Template-Party</a>》</span>
+        <p>使用したライブラリ：<a href="https://kenwheeler.github.io/slick/"
+                target="_blank">https://kenwheeler.github.io/slick/</a>
+        </p>
+    </footer>
 
     </div>
     <!--/container-->
